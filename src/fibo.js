@@ -21,8 +21,3 @@ else {
     const fib = fibonacciSeries(num);
     console.log(fib[num]);
 }
-// Output 
-// num = 0 → 0
-// num = 1 → 1
-// num = 10 → 55
-//# sourceMappingURL=fibo.js.map
