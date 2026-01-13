@@ -1,4 +1,4 @@
-function fibonacciSeries(n: number): number[] {
+const fibonacciSeries = (n: number): number[] => {
   if (n <= 0) return [0];
   if (n === 1) return [0, 1];
 
@@ -13,7 +13,7 @@ function fibonacciSeries(n: number): number[] {
   return fib;
 }
 
-const num: number = Number(process.argv[2]);
+const num: number = Number(prompt("Enter a number to get Fibonacci series up to that number: "));
 
 if (isNaN(num) || num < 0) {
   console.log("Please enter a valid number");
