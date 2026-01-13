@@ -13,7 +13,7 @@ function fibonacciSeries(n) {
     }
     return fib;
 }
-const num = Number(process.argv[2]);
+const num = Number(prompt("Enter a number to get Fibonacci series up to that number: "));
 if (isNaN(num) || num < 0) {
     console.log("Please enter a valid number");
 }
